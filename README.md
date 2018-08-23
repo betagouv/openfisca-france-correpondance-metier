@@ -29,6 +29,10 @@ git pull
 
 Plus d'informations sur git et ses commandes sont disponibles sur https://git-scm.com/doc.
 
+## Exemple
+
+Une situation de test est mise à disposition dans le fichier `openfisca_france_correpondance_metier/example.py`. Elle peut être lancée avec la commande suivante `python openfisca_france_correpondance_metier/example.py`.
+
 ## Notes
 
 Le nom des champs disponibles à la CAF ont été communiqués par email le 18/07/2018 à 15:44.
