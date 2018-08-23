@@ -35,4 +35,4 @@ Une situation de test est mise à disposition dans le fichier `openfisca_france_
 
 ## Notes
 
-Le nom des champs disponibles à la CAF ont été communiqués par email le 18/07/2018 à 15:44.
+Les noms des champs disponibles à la CAF ont été communiqués par email le 18/07/2018 à 15:44.
