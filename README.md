@@ -18,6 +18,16 @@ pip install --editable .
 
 Pour vérifier l'installation vous pouvez laisser la commande `python openfisca_france_correpondance_metier/test.py` qui renvoie le message suivant : « L'installation s'est bien déroulée ! »
 
+## Mise à jour
+
+Ce module peut être mise à jour à partir des informations disponibles dans ce dépôt avec les commandes suivantes :
+```bash
+git checkout master &&
+git fetch --all &&
+git pull
+```
+
+Plus d'informations sur git et ses commandes sont disponibles sur https://git-scm.com/doc.
 
 ## Notes
 
