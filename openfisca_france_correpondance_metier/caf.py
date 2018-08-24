@@ -28,8 +28,7 @@ with open(filename, 'r') as file:
     variable = 'af'
 
     periodText = period.strftime('%Y-%m')
-    print('Cet exemple calcule la variable \'' + variable + '\' sur la période \'' + periodText + '\'.')
     resultat = simulation_actuelle.calculate(variable, periodText)
 
-    print('Le résultat obtenu est ' + str(resultat) + '.')
+    print('{0} - {1} : {2}'.format(variable, periodText, resultat))
     print('')

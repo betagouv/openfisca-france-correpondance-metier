@@ -68,8 +68,8 @@ def createSituation(data, period):
 
   rniField = 'MTRNIFOY'
   if rniField in data and data[rniField]:
-    value = 500000
-    rev_coll = {(period + datetime.timedelta(0,0,y)).strftime('%Y'): value for y in range(0, -3, -1)}
+    value = data[rniField]
+    rev_coll = {(datetime.datetime(period.year - 2, period.month, period.day)).strftime('%Y'): value}
     foyerFiscal['rev_coll'] = rev_coll
 
   if secondPersonId:
