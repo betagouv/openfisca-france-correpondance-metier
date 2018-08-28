@@ -25,7 +25,7 @@ with open(filename, 'r') as file:
     pprint(situation)
 
     simulation_actuelle = Simulation(tax_benefit_system=legislation_francaise, simulation_json=situation)
-    variable = 'af'
+    variable = 'cmu_c'
 
     periodText = period.strftime('%Y-%m')
     resultat = simulation_actuelle.calculate(variable, periodText)
